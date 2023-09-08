@@ -52,16 +52,15 @@ function App() {
           {result}
         
         </p> </h2>
-        <input
+        <input style={{color:"whitesmoke"}}
           pattern="[0-9]" 
           ref={inputRef} 
           type="number" 
           placeholder="Type a number" 
         /> 
         <button onClick={plus}>add</button> 
-       
         <button onClick={minus}>subract</button>
-         <button onClick={times}>multiply</button>
+        <button onClick={times}>multiply</button>
         <button onClick={divide}>divide</button>
         <button onClick={resetInput}>Reset Input</button>
         <button onClick={resetResult}>Reset Result</button>
